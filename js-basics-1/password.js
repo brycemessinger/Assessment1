@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 console.log(`Welcome to the password validator tool!`)
 
-reader.question("Please enter your new password", function(answer){
+reader.question("Please enter your new password ", function(answer){
     if(answer.length >= 10){
         console.log(`Congratulations on setting up your new password!`)
     }
