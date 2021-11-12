@@ -1,14 +1,19 @@
+// In Problem 1, not sure why .slice(0,2) did not work since indeces start at 0, however .slice(0,3) is what worked for me, verified in console.log
+
+
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+// const faveColors = ['red', 'green', 'black']
 
-//CODE HERE
+// let colorCopy = faveColors.slice(0, 3)
+// console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+// faveColors.push(`yellow`)
+// console.log(faveColors)
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -18,8 +23,8 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
-
+let middleNums = numbers.splice(1, 3)
+console.log(middleNums)
 
 //////////////////PROBLEM 4////////////////////
 /* 
